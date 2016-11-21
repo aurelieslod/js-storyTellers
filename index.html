@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Utopia</title>
+    <link rel="stylesheet" href="css/chall1.css" media="screen" title="no title">
+  </head>
+  <body id="bodyFirst">
+    <h1>Utopia</h1>
+    <div class ="divFirstPage" id="begin">Bienvenue à Utopia, dernière petite ville existante sur terre.
+Je me présente, je suis Elisabeth, je serai votre guide ici. Peu de gens
+ont survécus après l'explosion de la bombe nucléaire. Vous êtes ici chez vous
+maintenant, puis-je vous demander votre nom ?
+    <div class="answer" onclick="name()"> Repondre</div>
+  </div>
+
+  <div class ="divFirstPage" id="objet">Merci et encore bienvenue <span id="answers1"></span>  ! J'ai une dernière requête, quel est
+l'objet auquel vous êtes le plus attaché ?
+    <div class="answer" onclick="objet()"> Repondre</div>
+  </div>
+
+  <div class ="divFirstPage" id="bestFriend">Bien, il est temps que vous rencontriez les autres utopiens. Voici Arnold,
+    c'est un ancien millitaire, il ne parle pas depuis qu'il est arrivé ici,
+    ne l'embêtez pas trop on ne sais jamais ... Ensuite John devant vous vous aidera
+    peu importel'objet de votre demande, même s'il est trés serviable personne ne sais
+    d'où il vient.
+    Un dernier petit défi avant de vous laisser vous installer, êtes-vous capable de
+    deviner le nom de mon meilleur ami, il est perché dans l'arbre, levez-votre tête.
+    <div class="answer" onclick="bestFriend()"> Repondre</div>
+  </div>
+
+  <div class ="divFirstPage" id="talent">
+    Oh ! Comment avez-vous deviné ! Vos talents nous seront utiles pour la suite...
+    Elisabeth vous indique votre maison, il est temps de poser ses valises après ce
+    long voyage.
+    Après votre installation dans votre nouvelle maison, qui ressemble plutôt à un tas de
+    branches et de feuilles en bataille, un inquiétude persiste, pourquoi l'objet qui vous
+    est si cher interesse tant Elisabeth ? Et de quel talent parle t'elle ?
+    Vous n'allez pas tarder à le découvrir...
+      <div class="suite" onclick="suite()"> Suite...</div>
+  </div>
+
+  <div class="divFirstPage" id="debut">
+    Après quelques jours de vie en communauté, le temps se fait
+    long, les taches quotidiennes répétitives et le comportement
+    de <span id="answers2"></span> et Elisabeth de plus en plus étrange.
+    Arnold apparait devant vous, depuis combien de temps vous
+    poursuit-il ?
+      "J'espère que tu n'as rien perdu d'important"
+    Vous courrez vers votre semblant de maison, vite, mais votre
+    <span id="answers3"></span> n'est plus là...
+    <div class="answer" onclick="begin2()">Suite</div>
+  </div>
+
+  <div class="divFirstPage" id="arme">
+    Vous courrez vers Arnold pour le rattraper mais il a déjà
+    disparu, la tension augmente intensément, il vous faut une arme !
+    Vous courrez chez Arnold, ancien millitaire, vous en trouvez une.
+    <div class="answer" onclick="armed()">Choisissez</div>
+  </div>
+
+  <div class="divFirstPage" id="combat">
+    Arnold vous surprend, il tente de vous assomer mais vous le
+    repousser avec votre <span id="answers4"></span>. Le combat se poursuit. John, qui a entendu du bruit
+    arrive en courant. Il vous stoppe et vous raconte une histoire ...
+  </div>
+
+  <div class="divFirstPage" id="story">
+    John vous apprend qu'Utopia n'est pas la seule ville survivante, bien au
+    contraire, et qu'Elisabeth et BESTFRIEND utilise la seule et unique chose qui
+    vous tiens à coeur, votre OBJET, afin de vous garder ici. Il faut se sauver
+    rapidement avant qu'ils découvrent votre projet.
+  </div>
+
+
+
+  <script src="js/chall1.js"></script>
+  </body>
+</html>

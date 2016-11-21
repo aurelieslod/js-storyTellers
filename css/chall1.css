@@ -1,0 +1,108 @@
+*{
+  /*margin: 0;*/
+  padding: 0;
+}
+
+@font-face {
+  src: url("../fonts/Precious.ttf");
+  font-family: "precious";
+}
+
+#bodyFirst {
+  background-image: url("../images/background1.jpg");
+  background-size: cover;
+}
+#bodySecond{
+  background-image: url("../images/backgrounnd2.jpg");
+  background-size: cover;
+}
+h1{
+  color: white;
+  text-align: center;
+  font-family: "precious";
+  font-size: 3em;
+}
+.divFirstPage{
+  width: 550px;
+  margin: auto;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: rgba(100, 87, 50, 0.7);
+  position: relative;
+}
+#begin{
+  height: 150px;
+}
+
+.answer{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  color: white;
+  font-family: "precious";
+  font-size: 1.5em;
+}
+#answers1{
+  color: rgb(212, 193, 188);
+}
+
+#objet{
+  height: 100px;
+  display: none;
+  margin-top:50px;
+}
+
+#bestFriend{
+  height: 200px;
+  display: none;
+  margin-top:50px;
+}
+
+#talent{
+  height: 200px;
+  display: none;
+  margin-top:50px;
+}
+
+.suite{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  color: white;
+  font-family: "precious";
+  font-size: 1.5em;
+}
+
+
+#debut{
+  height: 200px;
+  display: none;
+  margin-top: 50px;
+}
+#arme{
+  height: 150px;
+  display: none;
+  margin-top:50px;
+}
+#combat{
+  height: 100px;
+  display: none;
+  margin-top:50px;
+}
+#story{
+  height: 150px;
+  display: none;
+  margin-top:50px;
+}
+#answers2{
+  color: rgb(212, 193, 188);
+}
+#answers3{
+  color: rgb(212, 193, 188);
+}
+#answers4{
+  color: rgb(212, 193, 188);
+}
