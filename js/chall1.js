@@ -32,15 +32,16 @@ function bestFriend(){
 function suite(){
   var suite = document.getElementById("debut");
   suite.style.display="block";
+  document.getElementById("answers2").innerHTML= pro3;
+  document.getElementById("answers3").innerHTML= pro2;
 }
 
-document.getElementById("answers2").innerHTML= pro3;
-document.getElementById("answers3").innerHTML= pro2;
-document.getElementById("answers4").innerHTML= pro4;
+
 
 function begin2(){
   var arm = document.getElementById("arme");
   arm.style.display="block";
+  document.getElementById("answers4").innerHTML= pro4;
 }
 var pro4;
 function armed(){
