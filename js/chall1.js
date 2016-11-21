@@ -1,7 +1,7 @@
 var pro1;
 var pro2;
 var pro3;
-
+var pro4;
 
 
 function name(){
@@ -34,6 +34,7 @@ function suite(){
   suite.style.display="block";
   document.getElementById("answers2").innerHTML= pro3;
   document.getElementById("answers3").innerHTML= pro2;
+  window.scrollTo(0,document.body.scrollHeight);
 }
 
 
@@ -41,12 +42,20 @@ function suite(){
 function begin2(){
   var arm = document.getElementById("arme");
   arm.style.display="block";
-  document.getElementById("answers4").innerHTML= pro4;
+  window.scrollTo(0,document.body.scrollHeight);
 }
-var pro4;
+
 function armed(){
   pro4 = prompt("Quelle arme prenez-vous ?");
-  var comb = document.getElementById("story");
+  var comb = document.getElementById("combat");
   comb.style.display="block";
+  document.getElementById("answers4").innerHTML= pro4;
+  window.scrollTo(0,document.body.scrollHeight);
+}
+function stor(){
+  var storr = document.getElementById("story");
+  storr.style.display="block";
+  document.getElementById("answers5").innerHTML= pro3;
+  document.getElementById("answers6").innerHTML= pro2;
   window.scrollTo(0,document.body.scrollHeight);
 }
