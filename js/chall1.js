@@ -4,7 +4,7 @@ var pro3;
 var pro4;
 
 
-function name(){
+function nam(){
   pro1 = prompt("Quel est votre nom ?");
   var objet = document.getElementById("objet");
   objet.style.display="block";
@@ -59,3 +59,20 @@ function stor(){
   document.getElementById("answers6").innerHTML= pro2;
   window.scrollTo(0,document.body.scrollHeight);
 }
+
+function choix(){
+  var qu1= prompt("Faites-vous confiance à John ? Répondre par oui ou non");
+  var qu2= prompt("Eliminez-vous Elisabeth et son ami avant de partir ? Répondre par oui ou non");
+    if((qu1=="oui") && (qu2 =="oui")){
+      alert("Félicitation, vous avez réussit à vous échapper d'Utopia, malheureusement, John vous attaque par surprise pendant votre sommeil. C'est un psychopathe.");
+    }
+    else if((qu1 == "oui") && (qu2 == "non")){
+      alert("Dommage, Elisabeth et son ami vous ont retrouvé, ligottés et tués sans remords.");
+    }
+    else if( (qu1 == "non")&&(qu2=="oui")){
+      alert("Bravo ! Vous êtes trés perspicace et avez compris qu'on ne peut compter que sur soi-même ! Bonne route !");
+    }
+    else {
+      alert("John, Elisabeth et son ami vous ont laissé prendre de l'avance... Pour mieux vous rattraper et ne plus jamais vous laisser repartir...");
+    }
+    }
